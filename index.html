@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="/public/images/logo.png" sizes="16x16">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="public/images/logo.png" sizes="16x16">
+    <link rel='stylesheet' type='text/css' href='../public/css/style.css'>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/public/css/index.min.css" />
+    <link rel="stylesheet" href="/public/css/mystyles.css" />
+
+    <title>Doomur - Home</title>
+</head>
+<body style="font-family: 'Roboto', sans-serif;" class=" font-normal relative">
+    <!--TOP HEADER Appstore and Playstore links -->
+    <div class="justify-between hidden lg:inline-block lg:flex bg-yellow-500 text-white text-sm p-2">
+        <p>Download our app on <span class="text-gray-700 hover:underline"><a href="#">Playstore</a></span> or <span class="text-gray-700 hover:underline"><a href="#">Applestore</a></span> to join our community</p>
+        <div class="space-x-2">
+            <a href="organise_event.html" class="p-2 border border-yellow-500 hover:border-white hover:border-white">Organise an Event</a>
+            <a href="talents.html" class="p-2 border border-yellow-500 hover:border-white hover:border-white">Find work</a>
+            <a href="#" class="p-2 border border-yellow-500 hover:border-white hover:border-white hidden">Blog</a>
+        </div>
+    </div>
+    <!-- MAIN HEADER -->
+    <nav class="bg-gray-900 shadow-lg lg:bg-gray-800 text-gray-200 shadow-lg">
+        <!-- Mobile menu -->
+        <div class="flex justify-between w-11/12 m-auto">
+            
+            <div class="flex px-2 pt-2">
+                <a class="lg:mr-5" href="index.html">
+                    <img class="h-14 object-fill w-44 p-2" src="/public/images/doomur.png" alt="">
+                </a>
+                <div class="p-2 py-3 h-16 flex space-x-8 ">
+                    <a class="lg:block hidden px-3 py-2  border-b border-gray-100 hover:border-yellow-500 hover:text-yellow-500 transition duration-300 text-sm" href="events.html">Browse Events</a>
+                    <a class="lg:block hidden px-3 py-2  border-b border-gray-100 hover:border-yellow-500 hover:text-yellow-500 transition duration-300 text-sm" href="talents.html">Find Talents</a>
+                    <a class="lg:block hidden px-3 py-2  border-b border-gray-100 hover:border-yellow-500 hover:text-yellow-500 transition duration-300 text-sm" href="contact.html">Contact Us</a> 
+                     <a class="lg:block hidden px-3 py-2  border-b border-yellow-500 text-yellow-500 transition duration-300 text-sm" href="faq.html">FAQs</a>
+    
+                </div>
+            </div>
+            <div class="mt-2 py-3 h-16 flex space-x-8">
+                <a class="lg:block hidden px-3 py-2  border-b border-gray-100 hover:border-yellow-500 hover:text-yellow-500 transition duration-300 text-sm" href="/login.html">Log In</a>
+                <a class="lg:block hidden px-3 py-2  border-b border-gray-100 hover:border-yellow-500 hover:text-yellow-500 transition duration-300 text-sm" href="/register.html">Sign Up</a>  
+                <!-- <a id="profilebtn" class="bg-gray-300 rounded-3xl shadow-lg  block" href="#"><img id="profileimg" class="h-9 w-9 object-cover object-top rounded-3xl" src="/public/images/d1.jpeg" alt=""></a> -->
+                <a id="profilebtn" class="text-yellow-500 block lg:hidden mt-3" href="#">
+                    <svg id="profileimg" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path id="profileimg" stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- PROFILE DROPDOWN -->
+    <div class="relative">
+        <div id="menulist" class="absolute z-10 hidden block space-y-1 right-0 border w-56 bg-white  mx-1 my-1 rounded-lg">
+
+        <p class="border-b w-full py-2 rounded-t-lg hover:bg-yellow-500 hover:text-white"><a class="px-2 pr-6 py-2" href="events.html"> Browse Events</a></p>
+        <p class="border-b w-full py-2 hover:bg-yellow-500 hover:text-white"><a class="px-2 pr-6 py-2" href="talents.html"> Find Talents</a></p>
+        <p class="border-b w-full py-2 hover:bg-yellow-500 hover:text-white"><a class="px-2 pr-6 py-2" href="contact.html"> Contact Us</a></p>
+        <p class="border-b w-full py-2 hover:bg-yellow-500 hover:text-white"><a class="px-2 pr-6 py-2" href="faq.html"> FAQs</a></p>
+        <p class="border-b w-full py-2 hover:bg-yellow-500 hover:text-white"><a class="px-2 pr-6 py-2"  href="/login.html"> Log in</a></p>
+        <p class="border-b w-full py-2 hover:bg-yellow-500 hover:text-white"><a class="px-2 pr-6 py-2"  href="/register.html"> Sign up</a></p>
+        <p class="border-b w-full py-2 rounded-b-lg hover:bg-yellow-500 hover:text-white"><a class="px-2 pr-6 py-2" href="/organise_event.html"> Organise an Event</a></p>
+        </div>
+    </div>
+
+    <main>
+        <div class="relative banner-height font-normal">
+    <!-- BANNER SECTION -->
+            <div class="w-full  bg-gradient-to-b from-gray-800 to-gray-200 h-full" >
+                <img class="object-fill  h-full w-full hidden lg:inline-block" src="/public/images/banner1.png" alt="">
+                <div class="text-white font-bold text-center absolute lg:top-10  right-0 left-0 text-6xl m-10">
+                    <p class="text-3xl lg:text-7xl lg:mx-20">Book <span class="text-yellow-500">Events</span>,</p> 
+                    <p class="text-2xl">and</p>
+                    <p class="text-3xl lg:text-7xl lg:mx-20">Hire  <span class="text-yellow-500">Skilled people</span>  for any task</p>
+                    <div class="text-lg space-x-2 font-normal flex flex-wrap justify-center mb-2"><span>Buy your Tickets for Events, Travels & more.</span> <span><a href="events.html" class="rounded-3xl  text-gray-800 py-1 px-2 bg-yellow-400 hover:text-gray-100 hover:bg-yellow-500 duration-100">Explore Events</a></span></div>
+                    <div class="text-lg space-x-2 font-normal flex flex-wrap justify-center"> <span><a href="talents.html" class="rounded-3xl  text-gray-800 py-1 px-2 bg-yellow-400 hover:text-gray-100 hover:bg-yellow-500 duration-100">Find Talents</a> <span class="hidden lg:inline">for any task you have.</span></span></div>
+                    
+                </div>
+            </div>
+            <div class="absolute bottom-0 bg-white lg:bottom-0 left-0 right-0 bg-white my-rounded-5xl">
+                <div class="w-11/12 m-auto my-5 text-center font-bold text-4xl">
+                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-yellow-500">
+                        Welcome to Doomur
+                      </span>
+                </div>
+            </div>
+        </div>
+
+         <!-- EVENTS PREVIEW -->
+         <div class="bg-white  w-11/12  lg:w-8/12 m-auto  my-9">
+            <div class="flex flex-wrap">
+                <div class="lg:flex-1">
+                    <div class="grid grid-cols-6 lg:grid-cols-4 gap-2">
+                       
+                         <!-- Single category -->
+                         <div class="relative col-span-2 lg:col-span-1 h-24">
+                            <img class="object-cover object-center rounded-xl h-full w-full lg:inline-block" style="padding: 2px;" src="/public/images/show_categories/show_awards.jpeg" alt="">
+                          
+                            <a href="#!">
+                                <div class="absolute bottom-0  overflow-hidden rounded-xl  top-0 right-0 text-white left-0 border-2 border-white hover:border-yellow-400 duration-200">
+                                    
+                                    <p class="text-center lg:font-normal tracking-wider text-base text-base px-1 text-white mt-14 h-full" style="background-color: rgba(20, 20, 20, 0.821);">Awards</p>
+                                </div>
+                            </a>
+                        </div> 
+                         <!-- Single category -->
+                         <div class="relative col-span-2 lg:col-span-1 h-24">
+                            <img class="object-cover object-center rounded-xl h-full w-full lg:inline-block" style="padding: 2px;" src="/public/images/show_categories/show_music.jpg" alt="">
+                          
+                            <a href="#!">
+                                <div class="absolute bottom-0  overflow-hidden rounded-xl  top-0 right-0 text-white left-0 border-2 border-white hover:border-yellow-400 duration-200">
+                                    
+                                    <p class="text-center lg:font-normal tracking-wider text-base text-base px-1 text-white mt-14 h-full" style="background-color: rgba(20, 20, 20, 0.821);">Music</p>
+                                </div>
+                            </a>
+                        </div> 
+                         <!-- Single category -->
+                         <div class="relative col-span-2 lg:col-span-1 h-24">
+                            <img class="object-cover object-center rounded-xl h-full w-full lg:inline-block" style="padding: 2px;" src="/public/images/show_categories/show_business.jpg" alt="">
+                          
+                            <a href="#!">
+                                <div class="absolute bottom-0  overflow-hidden rounded-xl  top-0 right-0 text-white left-0 border-2 border-white hover:border-yellow-400 duration-200">
+                                    
+                                    <p class="text-center lg:font-normal tracking-wider text-base text-base px-1 text-white mt-14 h-full" style="background-color: rgba(20, 20, 20, 0.821);">Business</p>
+                                </div>
+                            </a>
+                        </div> 
+                         <!-- Single category -->
+                         <div class="relative col-span-2 lg:col-span-1 h-24">
+                            <img class="object-cover object-center rounded-xl h-full w-full lg:inline-block" style="padding: 2px;" src="/public/images/show_categories/show_cinema.jpg" alt="">
+                          
+                            <a href="#!">
+                                <div class="absolute bottom-0  overflow-hidden rounded-xl  top-0 right-0 text-white left-0 border-2 border-white hover:border-yellow-400 duration-200">
+                                    
+                                    <p class="text-center lg:font-normal tracking-wider text-base text-base px-1 text-white mt-14 h-full" style="background-color: rgba(20, 20, 20, 0.821);">Cinema</p>
+                                </div>
+                            </a>
+                        </div> 
+                         <!-- Single category -->
+                         <div class="relative col-span-2 lg:col-span-1 h-24">
+                            <img class="object-cover object-center rounded-xl h-full w-full lg:inline-block" style="padding: 2px;" src="/public/images/show_categories/show_sports.jpg" alt="">
+                          
+                            <a href="#!">
+                                <div class="absolute bottom-0  overflow-hidden rounded-xl  top-0 right-0 text-white left-0 border-2 border-white hover:border-yellow-400 duration-200">
+                                    
+                                    <p class="text-center lg:font-normal tracking-wider text-base text-base px-1 text-white mt-14 h-full" style="background-color: rgba(20, 20, 20, 0.821);">Sports</p>
+                                </div>
+                            </a>
+                        </div> 
+                         <!-- Single category -->
+                         <div class="relative col-span-2 lg:col-span-1 h-24">
+                            <img class="object-cover object-center rounded-xl h-full w-full lg:inline-block" style="padding: 2px;" src="/public/images/show_categories/show_tour.jpeg" alt="">
+                          
+                            <a href="#!">
+                                <div class="absolute bottom-0  overflow-hidden rounded-xl  top-0 right-0 text-white left-0 border-2 border-white hover:border-yellow-400 duration-200">
+                                    
+                                    <p class="text-center lg:font-normal tracking-wider text-base text-base px-1 text-white mt-14 h-full" style="background-color: rgba(20, 20, 20, 0.821);">Travel/Tour</p>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Single category -->
+                         <div class="relative col-span-2 lg:col-span-1 h-24">
+                            <img class="object-cover object-center rounded-xl h-full w-full lg:inline-block" style="padding: 2px;" src="/public/images/show_categories/show_comedy.jpg" alt="">
+                          
+                            <a href="#!">
+                                <div class="absolute bottom-0  overflow-hidden rounded-xl  top-0 right-0 text-white left-0 border-2 border-white hover:border-yellow-400 duration-200">
+                                    
+                                    <p class="text-center lg:font-normal tracking-wider text-base text-base px-1 text-white mt-14 h-full" style="background-color: rgba(20, 20, 20, 0.821);">Comedy</p>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Single category -->
+                        <div class="relative col-span-2 lg:col-span-1 h-24">
+                            <img class="object-cover object-center rounded-xl h-full w-full lg:inline-block" style="padding: 2px;" src="/public/images/show_categories/show_religious.jpg" alt="">
+                          
+                            <a href="#!">
+                                <div class="absolute bottom-0  overflow-hidden rounded-xl  top-0 right-0 text-white left-0 border-2 border-white hover:border-yellow-400 duration-200">
+                                    
+                                    <p class="text-center lg:font-normal tracking-wider text-base text-base px-1 text-white mt-14 h-full" style="background-color: rgba(20, 20, 20, 0.821);">Religion</p>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Single category -->
+                        <div class="relative col-span-2 lg:col-span-1 h-24">
+                            <img class="object-cover object-center rounded-xl h-full w-full lg:inline-block" style="padding: 2px;" src="/public/images/show_categories/show_drama.jpg" alt="">
+                          
+                            <a href="#!">
+                                <div class="absolute bottom-0  overflow-hidden rounded-xl  top-0 right-0 text-white left-0 border-2 border-white hover:border-yellow-400 duration-200">
+                                    
+                                    <p class="text-center lg:font-normal tracking-wider text-base text-base px-1 text-white mt-14 h-full" style="background-color: rgba(20, 20, 20, 0.821);">Drama</p>
+                                </div>
+                            </a>
+                        </div> 
+                         <!-- Single category -->
+                         <div class="relative col-span-2 lg:col-span-1 h-24">
+                            <img class="object-cover object-center rounded-xl h-full w-full lg:inline-block" style="padding: 2px;" src="/public/images/show_categories/show_fashion.jpg" alt="">
+                          
+                            <a href="#!">
+                                <div class="absolute bottom-0  overflow-hidden rounded-xl  top-0 right-0 text-white left-0 border-2 border-white hover:border-yellow-400 duration-200">
+                                    
+                                    <p class="text-center lg:font-normal tracking-wider text-base text-base px-1 text-white mt-14 h-full" style="background-color: rgba(20, 20, 20, 0.821);">Fashion</p>
+                                </div>
+                            </a>
+                        </div> 
+                         <!-- Single category -->
+                         <div class="relative col-span-2 lg:col-span-1 h-24">
+                            <img class="object-cover object-center rounded-xl h-full w-full lg:inline-block" style="padding: 2px;" src="/public/images/show_categories/show_talent.jpg" alt="">
+                          
+                            <a href="#!">
+                                <div class="absolute bottom-0  overflow-hidden rounded-xl  top-0 right-0 text-white left-0 border-2 border-white hover:border-yellow-400 duration-200">
+                                    
+                                    <p class="text-center lg:font-normal tracking-wider text-base text-base px-1 text-white mt-14 h-full" style="background-color: rgba(20, 20, 20, 0.821);">Talent</p>
+                                </div>
+                            </a>
+                        </div> 
+                         <!-- Single category -->
+                         <div class="relative col-span-2 lg:col-span-1 h-24">
+                            <img class="object-cover object-center rounded-xl h-full w-full lg:inline-block" style="padding: 2px;" src="/public/images/show_categories/show_1.jpg" alt="">
+                          
+                            <a href="#!">
+                                <div class="absolute bottom-0  overflow-hidden rounded-xl  top-0 right-0 text-white left-0 border-2 border-white hover:border-yellow-400 duration-200">
+                                    
+                                    <p class="text-center lg:font-normal tracking-wider text-base text-base px-1 text-white mt-14 h-full" style="background-color: rgba(20, 20, 20, 0.821);">Family</p>
+                                </div>
+                            </a>
+                        </div> 
+                    </div>
+                </div>
+                <div class="lg:flex-1  border-gray-100 p-5">
+                    <div class="flex justify-between">
+                        <p class="text-2xl font-bold">Event Preveiw</p>
+                        <div class="flex justify-between space-x-2 text-yellow-500 border-2 border-yellow-400 bg-gray-800 hover:bg-gray-300 hover:text-black duration-200 rounded-md px-3 py-1 font-bold">
+                            <a href="events.html" class="">Explore Events
+                            </a>
+                            <svg xmlns="http://www.w3.org/2000/svg" class=" mt-1 h-4 w-4 my-0 " viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                              </svg>
+                        </div>
+                    </div>
+                    <p class="leading-7">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil ducimus deleniti, ipsa commodi cumque consequuntur
+                        debitis totam distinctio atque delectus, harum voluptatibus praesentium molestiae? Ex aliquid corrupti necessitatibus quidem laudantium?</p>
+                </div>
+            </div>
+        </div>
+         <!-- FEATURED EVENTS -->
+         <div class=" bg-gradient-to-r from-white to-yellow-100 py-9">
+            <div class="w-11/12 m-auto my-10">
+            <div class="flex justify-between m-1">
+                <p class="text-2xl font-bold pt-1 bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-yellow-700">Featured Events</p>
+
+                <div class="flex justify-between space-x-2 text-yellow-500 border-2 border-yellow-400 bg-gray-800 hover:bg-gray-300 hover:text-black duration-200 rounded-md px-3 py-1 font-bold">
+                    <a href="events.html" class="">View Events
+                    </a>
+                    <svg xmlns="http://www.w3.org/2000/svg" class=" mt-1 h-4 w-4 my-0 " viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                    </svg>
+                </div>
+            </div>
+            <div class="grid lg:grid-cols-5 gap-3">
+                <div class="flex justify-center">
+                    <div class="rounded-lg shadow-lg bg-white w-full">
+                        <a href="#!">
+                            <img class="rounded-t-lg object-cover  h-40 w-full" src="/public/images/events/s2.jpeg" alt=""/>
+                        </a>
+                        <div class="p-2 px-3 text-sm font-normal space-y-1">
+                            <h5 class="text-gray-900 text-xl font-medium mb-1 truncate"><a href="#!" class="hover:text-yellow-600">Afro Nation</a></h5>
+
+                            <p class="text-yellow-500">Sat, Jul 30, 09:00 PM</p>
+                            <p class="text-gray-400 truncate">Valvo Arena, Accra, Greater Accra </p>
+                            <p class="text-gray-400 ">GHS 450 </p>
+                            <p class="text-gray-700 text-base tracking-wide">By AfroNation Ltd. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-center">
+                    <div class="rounded-lg shadow-lg bg-white w-full">
+                        <a href="#!">
+                            <img class="rounded-t-lg object-cover  h-40 w-full" src="/public/images/events/chu.jpeg" alt=""/>
+                        </a>
+                        <div class="p-2 px-3 text-sm font-normal space-y-1">
+                            <h5 class="text-gray-900 text-xl font-medium mb-1 truncate"><a href="#!" class="hover:text-yellow-600">A Night of 10,000 Laughs</a></h5>
+
+                            <p class="text-yellow-500">Sat, Jul 30, 09:00 PM</p>
+                            <p class="text-gray-400 truncate">Rena House, Accra, Greater Accra </p>
+                            <p class="text-gray-400 ">GHS 250 </p>
+                            <p class="text-gray-700 text-base tracking-wide">By Churchill House </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-center">
+                    <div class="rounded-lg shadow-lg bg-white w-full">
+                        <a href="#!">
+                            <img class="rounded-t-lg object-cover  h-40 w-full" src="/public/images/events/t3.jpeg" alt=""/>
+                        </a>
+                        <div class="p-2 px-3 text-sm font-normal space-y-1">
+                            <h5 class="text-gray-900 text-xl font-medium mb-1 truncate"><a href="#!" class="hover:text-yellow-600">Ebo white: Woes of A Father</a></h5>
+
+                            <p class="text-yellow-500">Fri, Jul 29, 09:00 PM</p>
+                            <p class="text-gray-400 truncate">National Theatre, Accra, Greater Accra </p>
+                            <p class="text-gray-400 ">GHS 300 </p>
+                            <p class="text-gray-700 text-base tracking-wide">By Ebo white Prod. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-center">
+                    <div class="rounded-lg shadow-lg bg-white w-full">
+                        <a href="#!">
+                            <img class="rounded-t-lg object-cover  h-40 w-full" src="/public/images/events/sp1.jpeg" alt=""/>
+                        </a>
+                        <div class="p-2 px-3 text-sm font-normal space-y-1">
+                            <h5 class="text-gray-900 text-xl font-medium mb-1 truncate"><a href="#!" class="hover:text-yellow-600">Hearts Vs Kotoko</a></h5>
+
+                            <p class="text-yellow-500">Sat, Jul 30, 09:00 PM</p>
+                            <p class="text-gray-400 truncate">Accra Sports Stadium, Accra, Greater Accra </p>
+                            <p class="text-gray-400 ">Free </p>
+                            <p class="text-gray-700 text-base tracking-wide">By AfroNation Ltd. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-center">
+                    <div class="rounded-lg shadow-lg bg-white w-full">
+                        <a href="#!">
+                            <img class="rounded-t-lg object-cover h-40 w-full" src="/public/images/events/afro.jpeg" alt=""/>
+                        </a>
+                        <div class="p-2 px-3 text-sm font-normal space-y-1">
+                            <h5 class="text-gray-900 text-xl font-medium mb-1 truncate"><a href="#!" class="hover:text-yellow-600">Detty Waves</a></h5>
+
+                            <p class="text-yellow-500">Sat, Jul 30, 08:00 PM</p>
+                            <p class="text-gray-400 truncate">Labadi beach, Accra, Greater Accra </p>
+                            <p class="text-gray-400 ">Free </p>
+                            <p class="text-gray-700 text-base tracking-wide">By Detty Ltd. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+         </div>
+        
+        <!-- GIGS PREVIEW -->
+        <div class="py-9">
+         <div class=" w-11/12  lg:w-8/12 m-auto  my-9">
+            <div class="flex flex-wrap">
+                <div class="lg:flex-1 p-5">
+                    <div class="flex justify-between">
+                        <p class="text-2xl font-bold">Gigs Preveiw</p>
+                        <div class="flex justify-between space-x-2 text-yellow-500 border-2 border-yellow-400 bg-gray-800 hover:bg-gray-300 hover:text-black duration-200 rounded-md px-3 py-1 font-bold">
+                            <a href="talents.html" class="">Explore Talents
+                            </a>
+                            <svg xmlns="http://www.w3.org/2000/svg" class=" mt-1 h-4 w-4 my-0 " viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                              </svg>
+                        </div>
+                    </div>
+                    <p class="leading-7">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil ducimus deleniti, ipsa commodi cumque consequuntur
+                        debitis totam distinctio atque delectus, harum voluptatibus praesentium molestiae? Ex aliquid corrupti necessitatibus quidem laudantium?</p>
+                </div>
+
+                <div class="lg:flex-1">
+                    <div class="grid grid-cols-6 lg:grid-cols-4 gap-2">
+                       
+                         <!-- Single category -->
+                         <div class="relative col-span-2 lg:col-span-1 h-24">
+                            <img class="object-cover object-center rounded-xl h-full w-full lg:inline-block" style="padding: 2px;" src="/public/images/gig_categories/gig_business.jpg" alt="">
+                          
+                            <a href="#!">
+                                <div class="absolute bottom-0  overflow-hidden rounded-xl  top-0 right-0 text-white left-0 border-2 border-white hover:border-yellow-400 duration-200">
+                                    
+                                    <p class="text-center lg:font-normal tracking-wider text-base text-base px-1 text-white mt-14 h-full" style="background-color: rgba(20, 20, 20, 0.821);">Business</p>
+                                </div>
+                            </a>
+                        </div> 
+                         <!-- Single category -->
+                         <div class="relative col-span-2 lg:col-span-1 h-24">
+                            <img class="object-cover object-center rounded-xl h-full w-full lg:inline-block" style="padding: 2px;" src="/public/images/gig_categories/gig_education.jpg" alt="">
+                          
+                            <a href="#!">
+                                <div class="absolute bottom-0  overflow-hidden rounded-xl  top-0 right-0 text-white left-0 border-2 border-white hover:border-yellow-400 duration-200">
+                                    
+                                    <p class="text-center lg:font-normal tracking-wider text-base text-base px-1 text-white mt-14 h-full" style="background-color: rgba(20, 20, 20, 0.821);">Education</p>
+                                </div>
+                            </a>
+                        </div> 
+                         <!-- Single category -->
+                         <div class="relative col-span-2 lg:col-span-1 h-24">
+                            <img class="object-cover object-center rounded-xl h-full w-full lg:inline-block" style="padding: 2px;" src="/public/images/gig_categories/gig_travel.jpg" alt="">
+                          
+                            <a href="#!">
+                                <div class="absolute bottom-0  overflow-hidden rounded-xl  top-0 right-0 text-white left-0 border-2 border-white hover:border-yellow-400 duration-200">
+                                    
+                                    <p class="text-center lg:font-normal tracking-wider text-base text-base px-1 text-white mt-14 h-full" style="background-color: rgba(20, 20, 20, 0.821);">Travel/Tour</p>
+                                </div>
+                            </a>
+                        </div> 
+                         <!-- Single category -->
+                         <div class="relative col-span-2 lg:col-span-1 h-24">
+                            <img class="object-cover object-center rounded-xl h-full w-full lg:inline-block" style="padding: 2px;" src="/public/images/gig_categories/gig_tech.jpg" alt="">
+                          
+                            <a href="#!">
+                                <div class="absolute bottom-0  overflow-hidden rounded-xl  top-0 right-0 text-white left-0 border-2 border-white hover:border-yellow-400 duration-200">
+                                    
+                                    <p class="text-center lg:font-normal tracking-wider text-base text-base px-1 text-white mt-14 h-full" style="background-color: rgba(20, 20, 20, 0.821);">Technology</p>
+                                </div>
+                            </a>
+                        </div> 
+                         <!-- Single category -->
+                         <div class="relative col-span-2 lg:col-span-1 h-24">
+                            <img class="object-cover object-center rounded-xl h-full w-full lg:inline-block" style="padding: 2px;" src="/public/images/gig_categories/gig_health.jpg" alt="">
+                          
+                            <a href="#!">
+                                <div class="absolute bottom-0  overflow-hidden rounded-xl  top-0 right-0 text-white left-0 border-2 border-white hover:border-yellow-400 duration-200">
+                                    
+                                    <p class="text-center lg:font-normal tracking-wider text-base text-base px-1 text-white mt-14 h-full" style="background-color: rgba(20, 20, 20, 0.821);">Health</p>
+                                </div>
+                            </a>
+                        </div> 
+                         <!-- Single category -->
+                         <div class="relative col-span-2 lg:col-span-1 h-24">
+                            <img class="object-cover object-center rounded-xl h-full w-full lg:inline-block" style="padding: 2px;" src="/public/images/gig_categories/gig_repairs.jpg" alt="">
+                          
+                            <a href="#!">
+                                <div class="absolute bottom-0  overflow-hidden rounded-xl  top-0 right-0 text-white left-0 border-2 border-white hover:border-yellow-400 duration-200">
+                                    
+                                    <p class="text-center lg:font-normal tracking-wider text-base text-base px-1 text-white mt-14 h-full" style="background-color: rgba(20, 20, 20, 0.821);">Repairs</p>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Single category -->
+                         <div class="relative col-span-2 lg:col-span-1 h-24">
+                            <img class="object-cover object-center rounded-xl h-full w-full lg:inline-block" style="padding: 2px;" src="/public/images/gig_categories/gig_entertainment.jpg" alt="">
+                          
+                            <a href="#!">
+                                <div class="absolute bottom-0  overflow-hidden rounded-xl  top-0 right-0 text-white left-0 border-2 border-white hover:border-yellow-400 duration-200">
+                                    
+                                    <p class="text-center lg:font-normal  tracking-wider text-sm px-0 text-white mt-14 h-full" style="background-color: rgba(20, 20, 20, 0.821);">Entertainment</p>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Single category -->
+                        <div class="relative col-span-2 lg:col-span-1 h-24">
+                            <img class="object-cover object-center rounded-xl h-full w-full lg:inline-block" style="padding: 2px;" src="/public/images/gig_categories/gig_lifestyle.jpg" alt="">
+                          
+                            <a href="#!">
+                                <div class="absolute bottom-0  overflow-hidden rounded-xl  top-0 right-0 text-white left-0 border-2 border-white hover:border-yellow-400 duration-200">
+                                    
+                                    <p class="text-center lg:font-normal tracking-wider text-base text-base px-1 text-white mt-14 h-full" style="background-color: rgba(20, 20, 20, 0.821);">Lifestyle</p>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Single category -->
+                        <div class="relative col-span-2 lg:col-span-1 h-24">
+                            <img class="object-cover object-center rounded-xl h-full w-full lg:inline-block" style="padding: 2px;" src="/public/images/gig_categories/gig_finance.jpg" alt="">
+                          
+                            <a href="#!">
+                                <div class="absolute bottom-0  overflow-hidden rounded-xl  top-0 right-0 text-white left-0 border-2 border-white hover:border-yellow-400 duration-200">
+                                    
+                                    <p class="text-center lg:font-normal tracking-wider text-base text-base px-1 text-white mt-14 h-full" style="background-color: rgba(20, 20, 20, 0.821);">Finance</p>
+                                </div>
+                            </a>
+                        </div> 
+                         <!-- Single category -->
+                         <div class="relative col-span-2 lg:col-span-1 h-24">
+                            <img class="object-cover object-center rounded-xl h-full w-full lg:inline-block" style="padding: 2px;" src="/public/images/gig_categories/gig_construction.jpg" alt="">
+                          
+                            <a href="#!">
+                                <div class="absolute bottom-0  overflow-hidden rounded-xl  top-0 right-0 text-white left-0 border-2 border-white hover:border-yellow-400 duration-200">
+                                    
+                                    <p class="text-center lg:font-normal tracking-wider text-sm px-1 text-white mt-14 h-full" style="background-color: rgba(20, 20, 20, 0.821);">Construction</p>
+                                </div>
+                            </a>
+                        </div> 
+                         <!-- Single category -->
+                         <div class="relative col-span-2 lg:col-span-1 h-24">
+                            <img class="object-cover object-center rounded-xl h-full w-full lg:inline-block" style="padding: 2px;" src="/public/images/gig_categories/gig_transport.jpg" alt="">
+                          
+                            <a href="#!">
+                                <div class="absolute bottom-0  overflow-hidden rounded-xl  top-0 right-0 text-white left-0 border-2 border-white hover:border-yellow-400 duration-200">
+                                    
+                                    <p class="text-center lg:font-normal tracking-wider text-base text-base px-1 text-white mt-14 h-full" style="background-color: rgba(20, 20, 20, 0.821);">Transport</p>
+                                </div>
+                            </a>
+                        </div> 
+                         <!-- Single category -->
+                         <div class="relative col-span-2 lg:col-span-1 h-24">
+                            <img class="object-cover object-center rounded-xl h-full w-full lg:inline-block" style="padding: 2px;" src="/public/images/gig_categories/gig_general.jpg" alt="">
+                          
+                            <a href="#!">
+                                <div class="absolute bottom-0  overflow-hidden rounded-xl  top-0 right-0 text-white left-0 border-2 border-white hover:border-yellow-400 duration-200">
+                                    
+                                    <p class="text-center lg:font-normal tracking-wider text-base text-base px-1 text-white mt-14 h-full" style="background-color: rgba(20, 20, 20, 0.821);">General</p>
+                                </div>
+                            </a>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+
+         <!-- Download app -->
+         <div class="bg-gradient-to-r from-white to-gray-200 py-9">
+            <div class="w-11/12  lg:w-8/12 m-auto  mb-9 ">
+                <div class="grid lg:grid-cols-8">
+                    <div class="col-span-5">
+                        <img class="object-cover object-top rounded-lg  h-full w-full" src="/public/images/Doomurapp.png" alt="">
+                    </div>
+                    <div class="col-span-3  py-5 px-2">
+                        <p class="text-2xl font-bold">Download our App</p>
+                        <div class=" flex space-x-2 my-3">
+                            <img class="rounded-lg h-12" src="/public/images/applestore.png" alt="">
+                            <img class="rounded-lg h-12" src="/public/images/playstore.png" alt="">
+                        </div>
+                        <p class="leading-7">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil ducimus deleniti, ipsa commodi cumque consequuntur
+                            debitis totam distinctio atque delectus, harum voluptatibus praesentium molestiae? Ex aliquid corrupti necessitatibus quidem laudantium?</p>
+                    </div>
+                </div>
+            </div>
+         </div>
+        
+
+        <!-- TESTIMONIES -->
+        <div class="lg:w-7/12 m-auto">
+            <p class="text-center text-xl font-bold mt-10">Testimonials</p>
+            <div id="carouselExampleCaptions" class="carousel slide relative carousel-dark my-5  border-gray-100 py-3 px-3 rounded-2xl bg-white" data-bs-ride="carousel">
+                <div class="carousel-inner relative w-full overflow-hidden">
+                  <div class="carousel-item active relative float-left w-full text-center">
+                    <p class="text-xl italic mx-auto text-gray-700 max-w-4xl">
+                      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet
+                      numquam iure provident voluptate esse quasi, voluptas nostrum quisquam!"
+                    </p>
+                    <div class="mt-12 mb-6 flex justify-center">
+                      <img
+                        src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
+                        class="rounded-full w-24 h-24 shadow-lg"
+                        alt="smaple image"
+                      />
+                    </div>
+                    <p class="text-gray-500">- Anna Morian</p>
+                  </div>
+                  <div class="carousel-item relative float-left w-full text-center">
+                    <p class="text-xl italic mx-auto text-gray-700 max-w-4xl">
+                      "Neque cupiditate assumenda in maiores repudiandae mollitia adipisci maiores
+                      repudiandae mollitia consectetur adipisicing architecto elit sed adipiscing
+                      elit."
+                    </p>
+                    <div class="mt-12 mb-6 flex justify-center">
+                      <img
+                        src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(31).webp"
+                        class="rounded-full w-24 h-24 shadow-lg"
+                        alt="smaple image"
+                      />
+                    </div>
+                    <p class="text-gray-500">- Teresa May</p>
+                  </div>
+                  <div class="carousel-item relative float-left w-full text-center">
+                    <p class="text-xl italic mx-auto text-gray-700 max-w-4xl">
+                      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                      dolore eu fugiat nulla pariatur est laborum neque cupiditate assumenda in
+                      maiores."
+                    </p>
+                    <div class="mt-12 mb-6 flex justify-center">
+                      <img
+                        src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp"
+                        class="rounded-full w-24 h-24 shadow-lg"
+                        alt="smaple image"
+                      />
+                    </div>
+                    <p class="text-gray-500">- Kate Allise</p>
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide="prev"
+                >
+                  <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide="next"
+                >
+                  <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        
+
+        <!-- NEWSLETTER -->
+        <div class="bg-white my-10">
+            <div class="bg-gray-800 w-11/12 m-auto rounded-3xl border flex justify-between">
+                <div class="text-white m-5 lg:ml-10 lg:mt-8">
+                    <p class="text-3xl font-bold">Stay up to date</p>
+                    <p>Get updates on all of our events and be the first to get notified when tickets go on sale.</p>
+                        <!-- Subscribe email -->
+                 <form class="flex justify-between h-14 mt-6 lg:rounded-xl rounded-3xl shadow-lg bg-white md:px-0 border-2 hover:border-yellow-500 duration-200  py-0 sm:inline-block">
+                    <input type="text" placeholder="Email address" class="focus:outline-none bg-white mt-1 mx-1 mb-2 text-black text-sm py-3 pl-4 w-64 font-normal">
+                    <button type="submit" class="bg-yellow-500 focus:outline-none text-gray-900 hover:text-white p-2 px-3 m-1 lg:rounded-lg rounded-2xl  ">
+                           <span class="hidden lg:inline">Sign up today</span>
+                           <svg xmlns="http://www.w3.org/2000/svg" class="lg:hidden h-4 w-4 my-0 " viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                          </svg>
+                    </button>
+                </form>
+                </div>
+                <img class="rounded-r-3xl hidden lg:inline" src="/public/images/contact.png" alt="">
+            </div>
+        </div>
+    </main>
+
+    <footer class=" bg-gray-800 py-8">
+        <div class="w-11/12 m-auto">
+            <div class="border-b border-white pb-2 lg:flex lg:flex-wrap lg:justify-between">
+                <div class=" flex space-x-2">
+                    <img class="rounded-lg h-12" src="/public/images/applestore.png" alt="">
+                    <img class="rounded-lg h-12" src="/public/images/playstore.png" alt="">
+                </div>
+                <div class="font-normal space-x-2 pt-2 text-center ">
+                    <span class="text-gray-200 text-center font-normal lg:text-sm">Follow Us</span>
+                    <span class=" hover:text-white hover:border-b :border-white text-yellow-500 duration-200 "><i class="fa fa-facebook text-2xl" aria-hidden="true"></i></span>
+                    <span class=" hover:text-white hover:border-b :border-white text-yellow-500 duration-200 "><i class="fa fa-instagram text-2xl" aria-hidden="true"></i></span>
+                    <span class=" hover:text-white hover:border-b :border-white text-yellow-500 duration-200 "><i class="fa fa-twitter text-2xl" aria-hidden="true"></i></span>
+                    <span class=" hover:text-white hover:border-b :border-white text-yellow-500 duration-200 "><i class="fa fa-youtube text-2xl" aria-hidden="true"></i></span>
+                </div>
+            </div>
+            <p class="text-gray-100 text-center mt-2">&copy; 2022 Doomur, LLC. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="/public/js/index.min.js"></script>
+    <script src="/public/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="/public/images/logo.png" sizes="16x16">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="public/images/logo.png" sizes="16x16">
+    <link rel='stylesheet' type='text/css' href='../public/css/style.css'>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/public/css/index.min.css" />
+    <link rel="stylesheet" href="/public/css/mystyles.css" />
+
+    <title>Doomur - Register</title>
+</head>
+<body style="font-family: 'Roboto', sans-serif;" class=" font-normal relative">
+    
+    <main>
+        <div class="grid grid-cols-8 gap-1 font-normal w-10/12 m-auto my-10 bg-gray-100 shadow-2xl">
+           
+            <!-- Playstore and appstore link goes here -->
+            <div class="col-span-10 lg:col-span-4 lg:hidden bg-gray-800 text-white ">
+                <div class="p-10 space-y-4">
+                 <p class="lg:text-4xl text-xl text-center text-yellow-500 font-bold ">Join Doomur to "Do more"</p>
+                 <p class="text-center">Download our app on <span class="text-yellow-500 hover:underline"><a href="#">Playstore</a></span> or <span class="text-yellow-500 hover:underline"><a href="#">Applestore</a></span> to "Do More"</p>
+         
+                </div>
+                 <div class="">
+                     <img class="w-full lg:inline hidden" src="/public/images/contactpage2.png" alt="">
+                 </div>
+             </div>
+
+             <!-- REGISTRATION FORM -->
+            <div class="col-span-10 lg:col-span-4 lg:p-10 lg:ml-0 ml-3">
+                <p class="text-3xl text-center font-bold ml-1" >Register</p>
+                <div class="font-normal text-sm text-center">
+                    <p>Create a new account. </p>
+                    <p>Already have an account? <a class="text-yellow-500 hover:text-yellow-500 underline" href="login.html">Log In</a></p>
+                </div>
+               <form action="">
+                    <div class=" mt-2 w-full lg:pr-4 pr-3">
+                        <p class="mx-2">Firstname</p>
+                        <input class="border border-slate-300 w-72 lg:w-full mx-2  rounded pl-3 py-3   shadow-sm focus:outline-none focus:border-yellow-500 focus:ring-red-500 focus:ring-1 sm:text-sm" type="text" id="firstname" name="firstname" placeholder="Firstname" required>
+                    </div>
+                    <div class=" mt-2 w-full lg:pr-4 pr-3">
+                        <p class="mx-2">Lastname</p>
+                        <input class="border border-slate-300 w-72 lg:w-full mx-2   rounded py-3 pl-3  shadow-sm focus:outline-none focus:border-yellow-500 focus:ring-red-500 focus:ring-1 sm:text-sm" type="text" id="lastname" name="lastname" placeholder="Lastname" required>
+                    </div>
+
+                    <div class=" mt-2 w-full lg:pr-4 pr-3">
+                        <p class="mx-2">Email</p>
+                        <input class="border border-slate-300  w-72  lg:w-full mx-2  rounded py-3 pl-3   shadow-sm focus:outline-none focus:border-yellow-500 focus:ring-red-500 focus:ring-1 sm:text-sm" type="email" id="Email" name="Email" placeholder="Email" required>
+                    </div>
+                    <div class=" mt-2 w-full lg:pr-4 pr-3">
+                            <p class="mx-2">Password</p>
+                            <input class="border border-slate-300 w-72 lg:w-full mx-2  rounded pl-3 py-3   shadow-sm focus:outline-none focus:border-yellow-500 focus:ring-red-500 focus:ring-1 sm:text-sm" type="password" id="password" name="password" placeholder="Password" required>
+                    </div>
+                    <div class=" mt-2 w-full lg:pr-4 pr-3">
+                        <p class="mx-2">Confirm Password</p>
+                            <input class="border border-slate-300 w-72 lg:w-full mx-2   rounded py-3 pl-3  shadow-sm focus:outline-none focus:border-yellow-500 focus:ring-red-500 focus:ring-1 sm:text-sm" type="password" id="cpassword" name="cpassword" placeholder="Confirm password" required>
+                    </div>
+                    <div class="text-center mb-10 my-3"><button class="bg-gray-800 hover:bg-gray-700 rounded text-white p-2 px-4" type="submit">Register</button></div>
+               </form>
+            </div>
+            <!-- Playstore and appstore link goes here -->
+            <div class="col-span-10 lg:col-span-4 bg-gray-800 text-white hidden lg:inline">
+               <div class="p-10 space-y-5 mb-2">
+                <p class="text-4xl text-center text-yellow-500 font-bold ">Join Doomur to "Do more"</p>
+                <p class="text-center">Download our app on <span class="text-yellow-500 hover:underline"><a href="#">Playstore</a></span> or <span class="text-yellow-500 hover:underline"><a href="#">Applestore</a></span> to "Do More"</p>
+        
+               </div>
+                <div class=" pt-3">
+                    <img class="w-full lg:inline hidden" src="/public/images/login.png" alt="">
+                </div>
+            </div>
+           
+        </div>
+            
+    </main>
+
+    <footer class=" bg-gray-800 py-8">
+        <div class="w-11/12 m-auto">
+            <div class="border-b border-white pb-2 lg:flex lg:flex-wrap lg:justify-between">
+                <div class=" flex space-x-2">
+                    <img class="rounded-lg h-12" src="/public/images/applestore.png" alt="">
+                    <img class="rounded-lg h-12" src="/public/images/playstore.png" alt="">
+                </div>
+                <div class="font-normal space-x-2 pt-2 text-center ">
+                    <span class="text-gray-200 text-center font-normal lg:text-sm">Follow Us</span>
+                    <span class=" hover:text-white hover:border-b :border-white text-yellow-500 duration-200 "><i class="fa fa-facebook text-2xl" aria-hidden="true"></i></span>
+                    <span class=" hover:text-white hover:border-b :border-white text-yellow-500 duration-200 "><i class="fa fa-instagram text-2xl" aria-hidden="true"></i></span>
+                    <span class=" hover:text-white hover:border-b :border-white text-yellow-500 duration-200 "><i class="fa fa-twitter text-2xl" aria-hidden="true"></i></span>
+                    <span class=" hover:text-white hover:border-b :border-white text-yellow-500 duration-200 "><i class="fa fa-youtube text-2xl" aria-hidden="true"></i></span>
+                </div>
+            </div>
+            <p class="text-gray-100 text-center mt-2">&copy; 2022 Doomur, LLC. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="/public/js/index.min.js"></script> 
+</body>
+</html>

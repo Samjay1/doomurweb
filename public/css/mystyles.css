@@ -1,0 +1,23 @@
+
+
+.banner-height{
+    height: 500px;
+}
+.my-rounded-5xl{
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+      background-color: white;
+    }
+
+    .banner-height{
+        height: 500px;
+    }
+    .my-rounded-5xl{
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+    }
+  }
